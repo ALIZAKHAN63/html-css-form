@@ -1,0 +1,50 @@
+h1{
+    color:silver;
+    justify-content:center;
+    display: flex;
+    }
+
+body{
+    background-image:linear-gradient(rgb(11, 88, 11),rgb(26, 26, 138));
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    min-height 100vh;
+    
+}
+label{
+    color:aliceblue;
+}
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 20vh; 
+}
+.container img {
+    max-width: 20%;
+    height: auto;
+}
+
+input[type="text"], input[type="number"] {
+    width: 100%;
+    padding: 10px;
+    margin: 5px 0 15px 0;
+    display: inline-block;
+    border: 2px solid #ccc;
+    border-radius: 10px; 
+    box-sizing: border-box;
+    font-size: 16px;
+}
+    button {
+    color:aliceblue;
+    background-color:rgb(216, 176, 0);
+    width: 100%;
+    padding: 10px;
+    margin: 5px 0 15px;
+    border: 2px solid #ccc;
+    border-radius: 10px; 
+    box-sizing: border-box;
+    font-size: 16px;
+    }
+    
